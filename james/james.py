@@ -15,7 +15,7 @@ Discord: https://discord.gg/HU5XzjW
 
 **Clips:**
 https://clips.twitch.tv/SavageCreativeElephantBuddhaBar""", colour=author.colour)
-        e.set_field(name=author.name, icon_url=author.avatar_url)
+        e.set_author(name=author.name, icon_url=author.avatar_url)
         await bot.say(embed=e)
         
 def setup(bot):
