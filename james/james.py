@@ -5,7 +5,7 @@ class James:
     def __init__(self, bot):
         self.bot = bot
         
-    @commands.command(pass_context=True):
+    @commands.command(pass_context=True)
     async def james(self, ctx):
         author = ctx.message.author
         e = discord.Embed(description="""**Links:**
